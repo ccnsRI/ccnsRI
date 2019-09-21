@@ -171,5 +171,19 @@
   </div>
 </div>
 <br><br>
+<script src="gradientify.js-master/build/gradientify.js"></script>
+<script>
+new Gradientify({
+    element: document.body,
+    gradients: [
+      `linear-gradient(60deg, rgb(255, 0, 0), rgb(0, 0, 255))`,
+      `linear-gradient(10deg, rgb(25, 123, 23), #ff22af)`,
+      `radial-gradient(rgb(25, 123, 223), red)` // All valid CSS gradients are supported
+    ],
+    fixed: false,
+    delay: 0,
+    interval: 5000
+})
+</script>
   </body>
   </html>
