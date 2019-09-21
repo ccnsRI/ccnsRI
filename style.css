@@ -7,6 +7,7 @@ background-size: 1200% 1200%;
 -moz-animation: AnimationName 30s ease infinite;
 -o-animation: AnimationName 30s ease infinite;
 animation: AnimationName 30s ease infinite;
+}
 
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
@@ -27,7 +28,6 @@ animation: AnimationName 30s ease infinite;
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
-}
 }
 
 .image-container {
