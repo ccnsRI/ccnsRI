@@ -61,7 +61,7 @@ animation: AnimationName 30s ease infinite;
 }
 
 .flip-card-inner {
-  /*position: relative;*/
+  position: relative;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -75,7 +75,7 @@ animation: AnimationName 30s ease infinite;
 }
 
 .flip-card-front, .flip-card-back {
-  /*position: absolute;*/
+  position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
