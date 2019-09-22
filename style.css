@@ -74,6 +74,7 @@ animation: AnimationName 30s ease infinite;
 }
 
 .facebook {
+  z-index: 999;
   background: #3B5998;
   color: white;
 }
