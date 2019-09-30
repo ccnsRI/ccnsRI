@@ -1,3 +1,13 @@
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(270deg, #c1fbec, #c7fbc1, #fafbc1, #fbcec1, #fbc1f9, #c1d2fb);
