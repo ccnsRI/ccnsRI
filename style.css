@@ -1,11 +1,11 @@
-.nav-tabs > li, .nav-pills > li {
+.nav-tabs > li, .nav-items > li {
     float:none;
     display:inline-block;
     *display:inline; /* ie7 fix */
      zoom:1; /* hasLayout ie7 trigger */
 }
 
-.nav-tabs, .nav-pills {
+.nav-tabs, .nav-items {
     text-align:center;
 }
 body {
