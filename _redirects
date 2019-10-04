@@ -1,0 +1,8 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://www.covenantnurseryschoolri.com/* https://www.ccnsri.org/:splat 301!
+https://covenantnurseryschoolri.com/* https://www.ccnsri.org/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://ccnsri.netlify.com/* https://www.ccnsri.org/:splat 301!
